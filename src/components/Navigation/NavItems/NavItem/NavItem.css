@@ -1,0 +1,42 @@
+.NavItem {
+    display: flex;
+    align-items: center;
+    /* height: 100%; */
+}
+
+.NavItem a {
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+    margin-top: 6.5px;
+    border-bottom: 4px solid transparent; /*just so when the color appears 
+    there won't be any movement in the postion */
+    transition: 0.2s all;
+} 
+
+.NavItem a:active,
+.NavItem a.active { /*last one means: anchor element with the class of active*/
+    border-bottom: 4px solid #f1c40f;
+    color: #f1c40f;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.NavItem a:hover {
+    color: #f1c40f;
+}
+
+@media (max-width: 500px) {
+    .NavItem {
+        width: 100%;
+    }
+
+    .NavItem a {
+        width: 100%;
+        padding: 12px;
+    } 
+
+    .NavItem a:active,
+    .NavItem a.active { 
+        border: transparent;
+    }
+}

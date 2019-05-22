@@ -1,0 +1,51 @@
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/img/laptop.jpg'); 
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 10px;
+}
+
+.content {
+    width: 60%;
+    margin: 0 40%;
+    padding: 15px;
+}
+
+.home h1{
+    color: #f1c40f;
+}
+
+.home p{
+    color: red;
+}
+
+
+
+.icons {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 60px;
+    transition: all 0.3s;
+}
+
+.git:hover {
+    color: #000;
+}
+
+.linkedin:hover {
+    color: #0077B5;
+}
+
+.facebook:hover{
+    color: #4267B2;
+}
+
+@media (max-width: 500px) {
+    .home p {
+        font-size: 0.8em;
+    }
+    .home h1 {
+        font-size: 1.3em;
+    }
+}
