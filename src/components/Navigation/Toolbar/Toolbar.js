@@ -6,7 +6,7 @@ import Icon from '../../UI/Icon/Icon';
 const toolbar = (props) => (
     <header className={classes.toolbar}>
         <div className={classes.mobileOnly}>
-            <Icon name="menu" clicked={props.open} color='#f1c40f'/>
+            <Icon name="menu" clicked={props.open} color='#fff'/>
         </div>
 
         <nav className={classes.desktopOnly}>

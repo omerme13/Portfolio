@@ -4,18 +4,23 @@
     background-size: cover;
     background-position: center;
     height: 100vh;
-    padding: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* top: 60; */
+    overflow: hidden;
 }
 
 .content {
     width: 60%;
-    margin: 0 40%;
-    padding: 15px;
+    margin: 0 35%;
+    padding: 30px;
 }
 
 .home h1{
     color: #f1c40f;
     margin-top: 50px;
+    line-height: 100%;
 }
 
 .home h2{
@@ -28,12 +33,15 @@
     color: red;
 }
 
-
-
 .icons {
     color: rgba(255, 255, 255, 0.3);
     font-size: 60px;
     transition: all 0.3s;
+}
+
+.content img {
+    border-radius: 50%;
+    border: 2px solid #fff;
 }
 
 .git:hover {
@@ -55,4 +63,16 @@
     .home h1 {
         font-size: 1.3em;
     }
+    .home h2 {
+        font-size: 1em;
+    }
+    .home img {
+        height: 50%;
+        width: 50%;
+    }
+    .icons {
+        font-size: 110%;
+    }
 }
+
+

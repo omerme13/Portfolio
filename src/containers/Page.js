@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
+// import { Route } from 'react-router-dom';
+import { AnimatedRoute } from 'react-router-transition';
+
 
 import classes from './Page.css';
 import Layout from './Layout/Layout';
@@ -14,10 +16,48 @@ class Page extends Component {
         return (
             <div className={classes.page}>
                 <Layout>
-                    <Route path="/" exact component={Home} />
-                    <Route path="/work" component={Work} />
-                    <Route path="/about" component={About} />
-                    <Route path="/contact" component={Contact} />
+                    <AnimatedRoute
+                        path="/"
+                        exact
+                        component={Home}
+                        atEnter={{ opc: 0 }}
+                        atLeave={{ opc: 0 }}
+                        atActive={{ opc: 1 }}
+                        mapStyles={(styles) => ({
+                            opacity: styles.opc
+                        })}
+                    />
+                    <AnimatedRoute
+                        path="/work"
+                        component={Work}
+                        atEnter={{ opc: 0 }}
+                        atLeave={{ opc: 0 }}
+                        atActive={{ opc: 1 }}
+                        mapStyles={(styles) => ({
+                            opacity: styles.opc
+                        })}
+                    />
+                    <AnimatedRoute
+                        path="/about"
+                        component={About}
+                        atEnter={{ opc: 0 }}
+                        atLeave={{ opc: 0 }}
+                        atActive={{ opc: 1 }}
+                        mapStyles={(styles) => ({
+                            opacity: styles.opc
+                        })}
+                    />
+                    <AnimatedRoute
+                        path="/contact"
+                        component={Contact}
+                        atEnter={{ offset: -100, opc: 0}}
+                        atLeave={{ offset: -100, opc: 0 }}
+                        atActive={{ offset: 0, opc: 1}}
+                        mapStyles={(styles) => ({
+                            transform: `translateX(${styles.offset}%)`,
+                            opacity: styles.opc
+                        })}
+                    />
                 </Layout>
             </div>
         );
@@ -25,3 +65,4 @@ class Page extends Component {
 }
 
 export default Page;
+

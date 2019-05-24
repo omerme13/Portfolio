@@ -1,12 +1,24 @@
 body {
-  margin: 0;
-  font-family: Lato, -apple-system, sans-serif;
-  font-size: 25px;
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+    margin: 0;
+    font-family: Lato, -apple-system, sans-serif;
+    font-size: 25px;
+    background-color: #2980b9;
+    line-height: 140%;
+    word-spacing: 2px;
+    background-image: linear-gradient(rgba(125, 125, 125, 0.9), rgba(225, 225, 225, 1)), url('assets/img/background.jpg'); 
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center;
+
+    /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; */
 }
 
 *:focus {
     outline: none;
+}
+
+* {
+    box-sizing: border-box;
 }
 
