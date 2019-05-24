@@ -1,5 +1,5 @@
 .home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/img/laptop.jpg'); 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../../assets/img/laptop.jpg'); 
     background-attachment: fixed; 
     background-size: cover;
     background-position: center;
@@ -15,6 +15,13 @@
 
 .home h1{
     color: #f1c40f;
+    margin-top: 50px;
+}
+
+.home h2{
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: 300;
 }
 
 .home p{
@@ -24,7 +31,7 @@
 
 
 .icons {
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.3);
     font-size: 60px;
     transition: all 0.3s;
 }
