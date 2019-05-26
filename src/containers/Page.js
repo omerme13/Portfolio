@@ -8,6 +8,7 @@ import Layout from './Layout/Layout';
 import Home from '../components/Home/Home';
 import Work from '../components/Work/Work';
 import About from '../components/About/About';
+import Skills from '../components/Skills/Skills';
 import Contact from '../components/Contact/Contact';
 
 class Page extends Component {
@@ -48,13 +49,22 @@ class Page extends Component {
                         })}
                     />
                     <AnimatedRoute
+                        path="/skills"
+                        component={Skills}
+                        atEnter={{ opc: 0 }}
+                        atLeave={{ opc: 0 }}
+                        atActive={{ opc: 1 }}
+                        mapStyles={(styles) => ({
+                            opacity: styles.opc
+                        })}
+                    />
+                    <AnimatedRoute
                         path="/contact"
                         component={Contact}
-                        atEnter={{ offset: -100, opc: 0}}
-                        atLeave={{ offset: -100, opc: 0 }}
-                        atActive={{ offset: 0, opc: 1}}
+                        atEnter={{ opc: 0}}
+                        atLeave={{ opc: 0 }}
+                        atActive={{ opc: 1}}
                         mapStyles={(styles) => ({
-                            transform: `translateX(${styles.offset}%)`,
                             opacity: styles.opc
                         })}
                     />

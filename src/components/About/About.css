@@ -1,21 +1,9 @@
-.about {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 60px;
-}
-
-.about h2,
-.about h3 {
-    color: #f1c40f;
-}
-
 
 .content {
     width: 80%;
     margin: 0 auto;
     display: flex;
-    font-size: 80%;
+    font-size: 90%;
 }
 
 .content p {
@@ -28,4 +16,54 @@
 
 .skills {
     width: 40%;
+    /* display: flex; */
 }
+
+.icons {
+    font-size: 50px;
+}
+
+.test {
+    width: 400px;
+    height: 50px;
+   border: 1px solid black;
+    color: transparent;
+    transition: 0.5s;
+    margin: 30px;   
+    display: flex;
+}
+
+.bar {
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%;
+    background-color: transparent;
+    transition: 0.5s;
+
+}
+
+.bar:hover {
+    width: 270px;
+    height: 40px;
+    background-color: rgb(255,255,255);
+    border-radius: 2px; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;   
+    color: black;
+}
+
+.fixed {
+    width: 60px;
+    height: auto;
+    border: 1px solid black;
+    position: absolute;
+    z-index: -1;
+}
+
+.fixed:hover {
+    transition: 0.5s;
+}
+
+
+
+

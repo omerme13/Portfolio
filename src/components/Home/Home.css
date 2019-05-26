@@ -7,7 +7,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    /* top: 60; */
+    bottom: 0;
     overflow: hidden;
 }
 
@@ -41,7 +41,10 @@
 
 .content img {
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 3px solid #f1c40f;
+    height: 200px;
+    width: 200px;
+    padding: 5px;
 }
 
 .git:hover {
@@ -67,11 +70,11 @@
         font-size: 1em;
     }
     .home img {
-        height: 50%;
-        width: 50%;
+        height: 80%;
+        width: 80%;
     }
     .icons {
-        font-size: 110%;
+        font-size: 160%;
     }
 }
 

@@ -2,9 +2,9 @@ import React from 'react';
 import classes from './Contact.css';
 
 const contact = () => (
-    <div className={classes.contact}>
-        <h1>Contact</h1>
-    </div>
+    <section className={classes.contact}>
+        <h2>WAYS YOU CAN REACH ME</h2>
+    </section>
 )
 
 export default contact;
