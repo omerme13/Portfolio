@@ -1,5 +1,4 @@
 import React from 'react';
-import Radium from 'radium';
 
 import classes from './SkillItem.css';
 
@@ -15,4 +14,4 @@ const skillItem = props => (
     </div>
 )
 
-export default Radium(skillItem);
+export default skillItem;

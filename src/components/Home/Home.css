@@ -27,6 +27,7 @@
     color: whitesmoke;
     font-style: italic;
     font-weight: 300;
+    text-transform: capitalize;
 }
 
 .home p{

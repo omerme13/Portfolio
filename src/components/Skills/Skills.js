@@ -4,8 +4,8 @@ import SkillItem from './SkillItem/SkillItem';
 
 const skills = () => (
     <section className={classes.skills}>
-        <h2>SKILLS THAT I HAVE</h2>
-        <p>Here are some </p>
+        <h2>my skills</h2>
+        <p>Here are the levels of my confidence in these areas:</p>
         <div className={classes.wrapper}>
             <SkillItem name="HTML & CSS">85%</SkillItem>
             <SkillItem name="JS">75%</SkillItem>

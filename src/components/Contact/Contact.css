@@ -1,0 +1,59 @@
+.contact h4 {
+    margin: 0;
+}
+.icons {
+    font-size: 60px;
+    display: inline-block;
+    margin: 5px;
+    transition: 0.3s;
+    color: #fff;
+}
+
+.icons:hover {
+    color: #f1c40f;
+}
+
+.phone {
+    animation: animate 2.5s; 
+}
+
+.phone:hover,
+.mail:hover {
+    transform: rotateZ(15deg);
+    cursor: pointer;
+    color: #fff;
+}
+
+.phoneShown ,
+.mailShown {
+    color: #f1c40f;
+}
+
+.mail {
+    animation: animate 2s; 
+}
+
+.github {
+    animation: animate 1.5s; 
+}
+
+.facebook {
+    animation: animate 1s; 
+}
+
+.linkedin {
+    animation: animate 0.5s; 
+}
+
+@keyframes animate {
+    from {
+        transform: translateX(-500px);
+    }
+
+    60% {
+        transform: translateX(20px)
+    }
+    to {
+        transform: translateX(0);
+    }
+}

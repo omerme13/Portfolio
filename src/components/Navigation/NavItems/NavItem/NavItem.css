@@ -8,7 +8,7 @@
     text-decoration: none;
     color: #fff;
     padding: 16px;
-    margin-top: 6.5px;
+    /* margin-top: 6.5px; */
     border-bottom: 4px solid transparent; /*just so when the color appears 
     there won't be any movement in the postion */
     transition: 0.2s all;

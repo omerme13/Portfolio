@@ -4,12 +4,12 @@ import NavItems from '../NavItems/NavItems';
 import Icon from '../../UI/Icon/Icon';
 
 const toolbar = (props) => (
-    <header className={classes.toolbar}>
+    <header className={classes.toolbar} style={{background: props.color}}>
         <div className={classes.mobileOnly}>
             <Icon name="menu" clicked={props.open} color='#fff'/>
         </div>
 
-        <nav className={classes.desktopOnly}>
+        <nav className={classes.desktopOnly} >
             <NavItems/>
         </nav>
     </header>

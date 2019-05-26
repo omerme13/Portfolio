@@ -60,6 +60,7 @@ class Page extends Component {
                     />
                     <AnimatedRoute
                         path="/contact"
+                        render={() => <div><Contact /></div>}
                         component={Contact}
                         atEnter={{ opc: 0}}
                         atLeave={{ opc: 0 }}
@@ -68,6 +69,19 @@ class Page extends Component {
                             opacity: styles.opc
                         })}
                     />
+                    {/* <Route 
+                        path="/contact"
+                        render={
+                            () => <Contact 
+                                isMailShown={this.state.isMailShown}
+                                isNumberShown={this.state.isNumberShown}
+                                showNumber={this.showNumberHandler}
+                                showMail={this.showMailHandler}
+                                isMailIconShown={this.state.isMailIconShown}
+                                isPhoneIconShown={this.state.isPhoneIconShown}
+                            />
+                        }                    
+                    /> */}
                 </Layout>
             </div>
         );

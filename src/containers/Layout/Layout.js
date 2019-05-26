@@ -5,12 +5,26 @@ import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
 class Layout extends Component {
 
+    componentDidMount() {
+        window.addEventListener('scroll', this.changeColorHandler);
+    }
+    
     state = {
-        isSideDrawerOpen: false
+        isSideDrawerOpen: false,
+        toolbarColor: 'transparent'
     }
 
     toggleSideDrawerHandler = () => {
         this.setState({isSideDrawerOpen: !this.state.isSideDrawerOpen});
+    }
+
+    changeColorHandler = () => {
+        console.log(window.pageYOffset);
+        if (window.pageYOffset > 58) {
+            this.setState({toolbarColor: 'rgb(25,25,25)'});
+        } else if (window.pageYOffset < 50){
+            this.setState({toolbarColor: 'transparent'});
+        }
     }
 
 
@@ -20,6 +34,8 @@ class Layout extends Component {
                 <div>
                     <Toolbar 
                         open={this.toggleSideDrawerHandler}
+                        color={this.state.toolbarColor}
+                        changeColor={this.changeColorHandler}
                     />
                     <SideDrawer 
                         show={this.state.isSideDrawerOpen} 
