@@ -5,7 +5,6 @@ import Project from './Project/Project';
 import food from '../../../assets/img/food.jpg';
 import todo from '../../../assets/img/todo.jpg';
 import books from '../../../assets/img/books.jpg';
-import b from '../../../assets/img/background.jpg';
 import snow from '../../../assets/img/snow.jpg';
 import burger from '../../../assets/img/burger.jpg';
 

@@ -7,7 +7,7 @@ import Page from './containers/Page';
 import * as serviceWorker from './serviceWorker';
 
 const page = (
-    <BrowserRouter>
+    <BrowserRouter basename="/omer/">
         <Page />
     </BrowserRouter>
 );
