@@ -19,10 +19,9 @@ class Layout extends Component {
     }
 
     changeColorHandler = () => {
-        console.log(window.pageYOffset);
-        if (window.pageYOffset > 58) {
+        if (window.pageYOffset > 50) {
             this.setState({toolbarColor: 'rgb(25,25,25)'});
-        } else if (window.pageYOffset < 50){
+        } else /*if (window.pageYOffset < 50)*/{
             this.setState({toolbarColor: 'transparent'});
         }
     }
