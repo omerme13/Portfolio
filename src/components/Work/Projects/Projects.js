@@ -25,7 +25,7 @@ const projects = () => (
             HTML, CSS & JS
         </Project>
         <Project
-            url="https://5cf292cd50bdac0ccc3abf4c--omer-burger-builder.netlify.com/"
+            url="https://burger-builder-2368d.firebaseapp.com/"
             imgSrc={burger}
             name="Burger Builder"
         >
