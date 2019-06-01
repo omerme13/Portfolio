@@ -11,35 +11,35 @@ import burger from '../../../assets/img/burger.jpg';
 const projects = () => (
     <div className={classes.projects}>
         <Project 
-            url="https://github.com/omerme13/Task-List" 
+            url="https://omer-todo-list.netlify.com/" 
             imgSrc={todo}
             name="Task List"
         >
             HTML, CSS & JS    
         </Project>
         <Project
-            url="https://github.com/omerme13/Calorie-Tracker"
+            url="https://omer-calorie-tracker.netlify.com/"
             imgSrc={food}
             name="Calorie Tracker"
         >
             HTML, CSS & JS
         </Project>
         <Project
-            url="https://github.com/omerme13/Burger-Builder"
+            url="https://5cf292cd50bdac0ccc3abf4c--omer-burger-builder.netlify.com/"
             imgSrc={burger}
             name="Burger Builder"
         >
-            React & Redux
+            React, Redux & Node
         </Project>
         <Project 
-            url="https://github.com/omerme13/Booklist" 
+            url="https://omer-booklist.netlify.com/" 
             imgSrc={books}
             name="Book List"
         >
         HTML, CSS & JS    
         </Project>
         <Project
-            url="https://github.com/omerme13/Weather"
+            url="https://omer-weather.netlify.com/"
             imgSrc={snow}
             name="Weather App"
         >

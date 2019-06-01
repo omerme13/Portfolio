@@ -1,6 +1,7 @@
 .contact h4 {
     margin: 0;
 }
+
 .icons {
     font-size: 60px;
     display: inline-block;
@@ -55,5 +56,12 @@
     }
     to {
         transform: translateX(0);
+    }
+}
+
+/**** MEDIA QUERIES ****/
+@media (max-width: 480px) {
+    .icons {
+        font-size: 40px;
     }
 }

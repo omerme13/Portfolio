@@ -33,7 +33,9 @@ h2 {
     text-transform: uppercase;
 }
 
-@media(max-width: 500px) {
+
+/**** MEDIA QUERIES ****/
+@media(max-width: 480px) {
     body {
         background-image: -moz-linear-gradient(rgba(125, 125, 125, 0.9), rgba(225, 225, 225, 1)); /* FF 3.6+ */  
         background-image: -ms-linear-gradient(rgba(125, 125, 125, 0.9), rgba(225, 225, 225, 1)); /* IE10 */  
@@ -44,13 +46,12 @@ h2 {
     }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 480px) {
     h2 {
         font-size: 1.1em;
     } 
 
-    h4,
-    p {
+    h4, p {
         font-size: 0.8em;
     }
 }

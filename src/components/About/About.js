@@ -5,7 +5,6 @@ const about = () => (
     <section className={classes.about}>
         <h2>a littel bit about me</h2>
         <div className={classes.content}>
-            <div className={classes.bio}> 
                 <p>
                     My name is Omer Menachem and I'm a web developer and a programmer.
                     I live in Rosh Haayin Israel.
@@ -18,7 +17,6 @@ const about = () => (
                     I am currently seeking a job as a Front End / Full Stack developer.
                     I wish to find the right place, thrive and grow along with it.  
                 </p>
-            </div>
             <div className={classes.skills}>
            
             </div>
