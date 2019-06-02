@@ -11,7 +11,7 @@ const skills = () => (
             <SkillItem name="JS">75%</SkillItem>
             <SkillItem name="React">65%</SkillItem>
             <SkillItem name="Redux">55%</SkillItem>
-            <SkillItem name="Node & Express">50%</SkillItem>
+            <SkillItem name="Node & Express">55%</SkillItem>
             <SkillItem name="SQL">75%</SkillItem>
         </div>
     </section>
