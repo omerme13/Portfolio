@@ -6,9 +6,9 @@ const about = () => (
         <h2>a little bit about me</h2>
         <div className={classes.content}>
                 <p>
-                    My name is Omer Menachem and I'm a web developer and a programmer.
+                    My name is Omer Menachem and I am a web developer and a programmer.
                     I live in Rosh Haayin Israel.
-                    I have a B.Sc in industrial Engineering from the Open University Of Israel.
+                    I have a B.Sc in Industrial Engineering from the Open University Of Israel.
                 </p>
                 <p>When I was a student I have discovered the wonderful world of web development.
                     I explored, learned and experimented in this field ever since.
