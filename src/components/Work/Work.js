@@ -4,7 +4,7 @@ import Projects from './Projects/Projects';
 
 const work = () => (
     <section className={classes.work}>
-        <h2>check out my work...</h2>
+        <h2>check out my work</h2>
         <Projects />
     </section>
 )

@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: Lato, -apple-system, sans-serif;
@@ -35,18 +36,12 @@ h2 {
 
 
 /**** MEDIA QUERIES ****/
-@media(max-width: 480px) {
+@media (max-width: 480px) and (orientation : portrait) {
     body {
-        background-image: -moz-linear-gradient(rgba(125, 125, 125, 0.9), rgba(225, 225, 225, 1)); /* FF 3.6+ */  
-        background-image: -ms-linear-gradient(rgba(125, 125, 125, 0.9), rgba(225, 225, 225, 1)); /* IE10 */  
-        background-image: -webkit-linear-gradient(rgba(125, 125, 125, 0.9), rgba(225, 225, 225, 1)); /* Safari 5.1+, Chrome 10+ */  
-        background-image: -o-linear-gradient(rgba(125, 125, 125, 0.9), rgba(225, 225, 225, 1)); /* Opera 11.10 */  
-        background-image: linear-gradient(rgba(125, 125, 125, 0.9), rgba(225, 225, 225, 1));
-        z-index: 1;
+        background-image: linear-gradient(rgba(125, 125, 125, 0.9), rgba(225, 225, 225, 1)); 
+        background-color: #95a5a6;
     }
-}
 
-@media(max-width: 480px) {
     h2 {
         font-size: 1.1em;
     } 
@@ -56,3 +51,9 @@ h2 {
     }
 }
 
+@media (max-width: 815px) and (orientation : landscape) {
+    body {
+        background-image: linear-gradient(rgba(125, 125, 125, 0.9), rgba(225, 225, 225, 1)); 
+        background-color: #95a5a6;
+    }
+}

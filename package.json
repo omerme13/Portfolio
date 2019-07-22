@@ -131,9 +131,5 @@
       "react-app"
     ]
   },
-  "devDependencies": {
-    "autoprefixer": "^9.5.1",
-    "gulp": "^4.0.2",
-    "gulp-postcss": "^8.0.0"
-  }
+  "devDependencies": {}
 }

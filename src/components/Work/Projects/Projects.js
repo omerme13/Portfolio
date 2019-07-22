@@ -12,6 +12,7 @@ const projects = () => (
     <div className={classes.projects}>
         <Project 
             url="https://omer-todo-list.netlify.com/" 
+            gitUrl="https://github.com/omerme13/Task-List/"             
             imgSrc={todo}
             name="Task List"
         >
@@ -19,6 +20,7 @@ const projects = () => (
         </Project>
         <Project
             url="https://omer-calorie-tracker.netlify.com/"
+            gitUrl="https://github.com/omerme13/Calorie-Tracker/"             
             imgSrc={food}
             name="Calorie Tracker"
         >
@@ -26,13 +28,15 @@ const projects = () => (
         </Project>
         <Project
             url="https://omer-burger-builder.netlify.com/"
+            gitUrl="https://github.com/omerme13/burger-builder/"             
             imgSrc={burger}
             name="Burger Builder"
         >
-            React, Redux & Node
+            React, Redux, Node & PostgreSQL
         </Project>
         <Project 
             url="https://omer-booklist.netlify.com/" 
+            gitUrl="https://github.com/omerme13/Booklist/"             
             imgSrc={books}
             name="Book List"
         >
@@ -40,6 +44,7 @@ const projects = () => (
         </Project>
         <Project
             url="https://omer-weather.netlify.com/"
+            gitUrl="https://github.com/omerme13/Weather/"             
             imgSrc={snow}
             name="Weather App"
         >

@@ -49,7 +49,7 @@
 }
 
 .git:hover {
-    color: #000;
+    color: #333;
 }
 
 .linkedin:hover {
@@ -60,7 +60,7 @@
     color: #4267B2;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) and (orientation : portrait) {
     .home p {
         font-size: 0.8em;
     }
@@ -76,6 +76,29 @@
     }
     .icons {
         font-size: 160%;
+    }
+}
+
+@media (max-width: 812px) and (orientation : landscape) {
+    .home p {
+        font-size: 0.8em;
+    }
+    .home h1 {
+        font-size: 1.3em;
+    }
+    .home h2 {
+        font-size: 1em;
+        margin: 0 0 5px 0;
+    }
+    .home img {
+        height: 30%;
+        width: 30%;
+    }
+    .icons {
+        font-size: 160%;
+    }
+    .content {
+        padding: 10px;
     }
 }
 

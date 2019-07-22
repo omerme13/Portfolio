@@ -7,7 +7,8 @@ const skills = () => (
         <h2>my skills</h2>
         <p>Here are the levels of my confidence in these areas:</p>
         <div className={classes.wrapper}>
-            <SkillItem name="HTML & CSS">85%</SkillItem>
+            <SkillItem name="HTML">90%</SkillItem>
+            <SkillItem name="CSS & SASS">85%</SkillItem>
             <SkillItem name="JS">75%</SkillItem>
             <SkillItem name="React">65%</SkillItem>
             <SkillItem name="Redux">55%</SkillItem>

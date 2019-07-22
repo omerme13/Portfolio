@@ -21,18 +21,36 @@
     left: 0;
 }
 
-@media (min-width: 500px) {
+.toolbar nav {
+    height: 100%;
+}
+
+@media (min-width: 480px) {
     .mobileOnly {
         display: none;
     }
 }
 
-.toolbar nav {
-    height: 100%;
-}
 
-@media (max-width: 500px) {
+@media (max-width: 480px) and (orientation: portrait),
+        (max-width: 812px) and (orientation: landscape) {
     .desktopOnly {
         display: none;
+    }
+}
+
+/* @media (max-width: 812px) and (orientation: landscape) {
+    .desktopOnly {
+        display: none;
+    }
+} */
+
+@media (orientation: landscape) and (max-width: 812px) {
+    .desktopOnly {
+        display: none;
+    }
+
+    .mobileOnly {
+        display: block;
     }
 }

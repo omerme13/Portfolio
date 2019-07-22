@@ -25,7 +25,8 @@
     color: #f1c40f;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) and (orientation: portrait),
+        (max-width: 812px) and (orientation: landscape) {
     .NavItem {
         width: 100%;
     }
@@ -40,3 +41,19 @@
         border: transparent;
     }
 }
+
+/* @media (max-width: 812px) and (orientation: landscape) {
+    .NavItem {
+        width: 100%;
+    }
+
+    .NavItem a {
+        width: 100%;
+        padding: 12px;
+    } 
+
+    .NavItem a:active,
+    .NavItem a.active { 
+        border: transparent;
+    }
+} */

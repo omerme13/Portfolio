@@ -8,10 +8,18 @@
     width: 100%;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 480px) and (orientation: portrait),
+        (max-width: 812px) and (orientation: landscape) {
     .navItems {
         margin: 0;
         flex-flow: column;
     }
 }
+
+/* @media (max-width: 812px) and (orientation: landscape) {
+    .navItems {
+        margin: 0;
+        flex-flow: column;
+    }
+} */
 
