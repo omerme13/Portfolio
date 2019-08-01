@@ -43,12 +43,12 @@ const projects = () => (
         HTML, CSS & JS    
         </Project>
         <Project
-            url="https://omer-weather.netlify.com/"
-            gitUrl="https://github.com/omerme13/Weather/"             
+            url="https://weather-new.netlify.com/"
+            gitUrl="https://github.com/omerme13/Weather-new/"             
             imgSrc={snow}
             name="Weather App"
         >
-            HTML, CSS & JS
+            React & SCSS
         </Project>
     </div>
 )
